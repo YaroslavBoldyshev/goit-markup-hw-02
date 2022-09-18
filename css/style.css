@@ -53,6 +53,8 @@ body{
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    display: inline;
+    margin-top: 32px;
 }
 .light-link{
     color: var(--white-color);
@@ -160,6 +162,11 @@ body{
     flex-flow: row;
     justify-content: space-around;
 }
+.list-inline{
+    list-style: none;
+    display: inline;
+    margin-right: 5px;
+}
 .list-unmarked{
     list-style: none;
 }
@@ -200,4 +207,14 @@ body{
 }
 .dark-bg{
     background-color: var(--dark-bg);
+}
+.header{
+    /* position: absolute;
+    width: 1600px; */
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    display:flex;
+    flex-direction: row;
 }
